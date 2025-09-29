@@ -1,9 +1,15 @@
 class Chicken extends FarmAnimal {
 
-    private String sound = "Cluck Cluck";
+    private String sound;
 
     public Chicken(String name, String gender, double weight, int age){
         super(name, gender, weight, age);
+
+        if (gender.equals("male")) {
+        this.sound = "Cock-a-Doodle-doo";
+        } else {
+        this.sound = "Cluck Cluck";
+        }
     }
 
     @Override
@@ -13,6 +19,6 @@ class Chicken extends FarmAnimal {
 
     @Override
     public String toString() {
-        return "Chicken " + sound + " " +super.toString();
+        return "Chicken " + this.sound + " " + super.toString();
     }
 }
