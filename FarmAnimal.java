@@ -30,7 +30,7 @@ abstract class FarmAnimal{
         return weight;
     }
     public void setWeight(double weight){
-        this.weight =weight;
+        this.weight = weight;
     }
 
     public int getAge(){
@@ -44,6 +44,6 @@ abstract class FarmAnimal{
 
     @Override
     public String toString(){
-        return "[name= " + name + ", gender= " + gender + ", weight= " + weight + ", age= " + age + "]"
+        return "[name= " + name + ", gender= " + gender + ", weight= " + weight + ", age= " + age + "]";
     }
 }
