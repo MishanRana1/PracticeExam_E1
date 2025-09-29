@@ -10,6 +10,7 @@ public class MyFarm {
         animals.add(new Cow("Molly", "Female", 1600.0, 3));
         animals.add(new Chicken("Albert", "male", 1.8, 2));
         animals.add(new Chicken("Amelia", "female", 1.7, 4));
+        animals.add(new Chicken("Dixie", "female", 1.7, 4));
         
         for(FarmAnimal animal : animals){
             System.out.println(animal);
